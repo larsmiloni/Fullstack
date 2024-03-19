@@ -1,0 +1,40 @@
+{
+  "forms": [
+    {
+      "id": "9c01",
+      "name": "sd",
+      "mail": "wef@few.f",
+      "message": "wefwf"
+    },
+    {
+      "id": "aade",
+      "name": "lars",
+      "mail": "lars@lars.no",
+      "message": "Dette er en test"
+    },
+    {
+      "id": "15e1",
+      "name": "harry",
+      "mail": "harry@lars.no",
+      "message": "Dette er en test"
+    },
+    {
+      "id": "ad70",
+      "name": "fsdfsdf",
+      "mail": "sdfsd@fdsdf.no",
+      "message": "efwef"
+    },
+    {
+      "id": "268d",
+      "name": "test1",
+      "mail": "test1@test1.no",
+      "message": "test test test"
+    },
+    {
+      "id": "9123",
+      "name": "wefwe",
+      "mail": "wefwef@no,no.no",
+      "message": "test22"
+    }
+  ]
+}

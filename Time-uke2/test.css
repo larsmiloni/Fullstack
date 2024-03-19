@@ -1,0 +1,81 @@
+.html-logo {
+  height: 60px;
+}
+
+.header { grid-area: header; }
+.menu { grid-area: menu; }
+.left { grid-area: main; }
+.right { grid-area: right; }
+.footer { grid-area: footer; }
+.counter { grid-area: counter}
+.showHide { grid-area: showHide}
+.array { grid-area: array}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer"
+    "counter counter showHide showHide array array";
+
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .grid-container {
+    grid-template-areas:
+      "header"
+      "menu"
+      "main"
+      "right"
+      "footer"
+      "counter"
+      "showHide"
+      "array";
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  margin-right: 50px;
+}
+
+.left {
+  background-image: url("assets/images/image1.jpeg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left p {
+  width: 70%;
+  color: white;
+}
+
+.right img {
+  width: 70%;
+}
+
+.counter h2, p {
+  margin: 0;
+}
+
+.counter button {
+  padding: 10px;
+}

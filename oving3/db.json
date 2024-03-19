@@ -1,0 +1,52 @@
+{
+  "forms": [
+    {
+      "id": "9ea1",
+      "name": "test1",
+      "mail": "test1@test1.no",
+      "message": "test message"
+    },
+    {
+      "id": "605b",
+      "name": "test name",
+      "mail": "test@test.com",
+      "message": "test message"
+    },
+    {
+      "id": "93de",
+      "name": "lars nilsen",
+      "mail": "test@test.no",
+      "message": "memfwmefmwemgw"
+    },
+    {
+      "id": "7353",
+      "name": "test name",
+      "mail": "test@test.com",
+      "message": "test message"
+    },
+    {
+      "id": "bac8",
+      "name": "test name",
+      "mail": "test@test.com",
+      "message": "test message"
+    },
+    {
+      "id": "3146",
+      "name": "test name",
+      "mail": "test@test.com",
+      "message": "test message"
+    },
+    {
+      "id": "fa76",
+      "name": "dsfsfd",
+      "mail": "sdf@f.ef",
+      "message": "sdf"
+    },
+    {
+      "id": "45a1",
+      "name": "test name",
+      "mail": "test@test.com",
+      "message": "test message"
+    }
+  ]
+}
